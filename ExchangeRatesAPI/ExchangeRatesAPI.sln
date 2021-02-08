@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeRatesAPI.Infrastructure", "ExchangeRatesAPI.Infrastructure\ExchangeRatesAPI.Infrastructure.csproj", "{0B830111-0DE9-4F73-9A54-43293DFC8AD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeRatesAPI.Domain", "ExchangeRatesAPI.Domain\ExchangeRatesAPI.Domain.csproj", "{3DBB8C7F-514D-4B10-871D-60046ECD9C0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeRatesAPI.Application", "ExchangeRatesAPI.Application\ExchangeRatesAPI.Application.csproj", "{4F5FDCD7-0EFC-4664-8F2A-BADB4E790600}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeRatesAPI.WebApi", "ExchangeRatesAPI.WebApi\ExchangeRatesAPI.WebApi.csproj", "{D4184F34-E57C-48F3-A2B8-8BE3A077A56B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B830111-0DE9-4F73-9A54-43293DFC8AD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B830111-0DE9-4F73-9A54-43293DFC8AD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B830111-0DE9-4F73-9A54-43293DFC8AD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B830111-0DE9-4F73-9A54-43293DFC8AD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DBB8C7F-514D-4B10-871D-60046ECD9C0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DBB8C7F-514D-4B10-871D-60046ECD9C0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DBB8C7F-514D-4B10-871D-60046ECD9C0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DBB8C7F-514D-4B10-871D-60046ECD9C0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F5FDCD7-0EFC-4664-8F2A-BADB4E790600}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F5FDCD7-0EFC-4664-8F2A-BADB4E790600}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F5FDCD7-0EFC-4664-8F2A-BADB4E790600}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F5FDCD7-0EFC-4664-8F2A-BADB4E790600}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4184F34-E57C-48F3-A2B8-8BE3A077A56B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4184F34-E57C-48F3-A2B8-8BE3A077A56B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4184F34-E57C-48F3-A2B8-8BE3A077A56B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4184F34-E57C-48F3-A2B8-8BE3A077A56B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
