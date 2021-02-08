@@ -1,0 +1,15 @@
+<div class="card text-center mt-2">
+  <div class="border p-3 d-flex justify-content-center flex-wrap">
+    <form (ngSubmit)="onSubmit()">
+      <div class="row">
+        <div class="col">
+          <input type="date" class="form-control" name="date" [(ngModel)]="date"
+                 placeholder="Enter X coordinate">
+        </div>
+        <div class="col">
+          <input type="submit" value="Submit" class="btn">
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,19 @@
+<!--<app-add-point (addPoint)="addPoint($event)"></app-add-point>-->
+
+<!--<app-add-point-list></app-add-point-list>-->
+
+<div class="card text-center mt-4">
+  <h5 class="card-header text-info">
+    Exchange rates
+  </h5>
+  <div class="border p-3">
+    <app-exchange-rate-item
+      *ngFor="let item of items"
+      [item]="item"
+    ></app-exchange-rate-item>
+  </div>
+  <div class="card-footer text-muted">
+<!--    <mark>total points: {{ numberOfPoints }}</mark>-->
+  </div>
+</div>
+
